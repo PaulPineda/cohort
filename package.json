@@ -1,0 +1,19 @@
+{
+  "name": "cohort",
+  "version": "1.0.0",
+  "description": "Manage list of cohorts",
+  "main": "index.js",
+  "repository": "git@github.com:PaulPineda/cohort.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.0.7",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  }
+}
