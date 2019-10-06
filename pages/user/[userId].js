@@ -1,10 +1,12 @@
 import { useRouter } from "next/router";
 
-const Cohort = () => {
+import Cohort from "../../src/components/Cohort";
+
+const User = () => {
   const { query } = useRouter();
   const { userId } = query;
 
-  return <p>{userId}</p>;
+  return <Cohort userId={userId} />;
 };
 
-export default Cohort;
+export default User;
