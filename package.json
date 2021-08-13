@@ -15,7 +15,7 @@
     "deploy": "yarn export && aws s3 cp out s3://slipnsli.de --recursive"
   },
   "dependencies": {
-    "next": "^9.0.7",
+    "next": "^11.1.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1"
   },
